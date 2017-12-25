@@ -5,14 +5,18 @@
   
 
   
-  <title>Hexo</title>
+  <title>”numpy库函数（1） | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="关于python中numpy库部分函数的学习numpy.array:以list或tuple变量为参数产生一维数组。例如：12&amp;gt;&amp;gt;&amp;gt; print np.array([1,2,3,4])[1 2 3 4] 以list或tuple变量为元素产生二维数组：123&amp;gt;&amp;gt;&amp;gt; print np.array([[1,2],[3,4]])[[1 2] [3 4]] 生成数组的时候，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="”numpy库函数（1）">
+<meta property="og:url" content="http://yoursite.com/2017/12/25/”numpy库函数（1）/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="关于python中numpy库部分函数的学习numpy.array:以list或tuple变量为参数产生一维数组。例如：12&amp;gt;&amp;gt;&amp;gt; print np.array([1,2,3,4])[1 2 3 4] 以list或tuple变量为元素产生二维数组：123&amp;gt;&amp;gt;&amp;gt; print np.array([[1,2],[3,4]])[[1 2] [3 4]] 生成数组的时候，">
+<meta property="og:updated_time" content="2017-12-25T15:25:11.049Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="”numpy库函数（1）">
+<meta name="twitter:description" content="关于python中numpy库部分函数的学习numpy.array:以list或tuple变量为参数产生一维数组。例如：12&amp;gt;&amp;gt;&amp;gt; print np.array([1,2,3,4])[1 2 3 4] 以list或tuple变量为元素产生二维数组：123&amp;gt;&amp;gt;&amp;gt; print np.array([[1,2],[3,4]])[[1 2] [3 4]] 生成数组的时候，">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +63,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-”numpy库函数（1）" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-”numpy库函数（1）" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/12/25/”numpy库函数（1）/" class="article-date">
   <time datetime="2017-12-25T15:24:41.000Z" itemprop="datePublished">2017-12-25</time>
@@ -74,8 +76,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/25/”numpy库函数（1）/">”numpy库函数（1）</a>
+    <h1 class="article-title" itemprop="name">
+      ”numpy库函数（1）
     </h1>
   
 
@@ -103,109 +105,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-学习报告1" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/12/17/学习报告1/" class="article-date">
-  <time datetime="2017-12-17T14:11:17.000Z" itemprop="datePublished">2017-12-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/17/学习报告1/">学习报告1</a>
-    </h1>
+    <a href="/2017/12/17/学习报告1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Älter</strong>
+      <div class="article-nav-title">学习报告1</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="本周的学习内容"><a href="#本周的学习内容" class="headerlink" title="本周的学习内容"></a>本周的学习内容</h1><ol>
-<li>学习了python的一些知识，对面向过程编程与面向对象编程之间的区别有了一定的理解。</li>
-<li>用python做了一些以前的编程题，感觉十分的便捷。（不过用python是还是有点不适应，比如打print时常会顺手带个f，对if,else这些常会少个：,相信再过一阵应该就适应了吧…….)</li>
-<li>学习了一点点线性代数上有关矩阵的知识，回过头去看了几章《c与指针》。</li>
-<li>数据结构学完了二叉搜索树，学到了AV树的L旋转这段，还没有学完。啊哈算法学到了图的遍历这一章。</li>
-<li>学习了机器学习中有关knn的一些内容，又从网上看了看别人的knn。发现用python实现knn需要Numpy库中和其他库中的一些库函数。（网上python教程还没学到这些,自己查了查）<br>如：</li>
-</ol>
-<ul>
-<li>s.strip(rm)    删除s字符串中开头、结尾处，位于rm删除序列的字符。（ 当rm为空时，默认删除空白符（包括’\n’, ‘\r’,  ‘\t’,  ‘ ‘)）</li>
-<li>zeros(shape, dtype=float)，返回来一个给定形状和类型的用0填充的数组。</li>
-<li>shape函数，功能为可以读取数组或矩阵的维度大小。</li>
-<li>tile函数位于python模块numpy.lib.shape_base中，他的功能是重复某个数组。比如tile(A,n)，功能是将数组A重复n次，构成一个新的数组。</li>
-<li>operator.itemgetter函数是operator模块提供的itemgetter函数用于获取对象的哪些维的数据，参数为一些序号（即需要获取的数据在对象中的序号）</li>
-</ul>
-<ol>
-<li>学习了markdown的一些语法，学了HTML的一点点知识。（CSS,JavaScript还没学，下周一定补上~)</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/12/17/学习报告1/" data-id="cjbmctwgh00014wu9ruqvke28" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/12/17/hello-world/" class="article-date">
-  <time datetime="2017-12-17T12:14:46.695Z" itemprop="datePublished">2017-12-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/12/17/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/12/17/hello-world/" data-id="cjbmctwgn00024wu91pje7rk5" class="article-share-link">Teilen</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
